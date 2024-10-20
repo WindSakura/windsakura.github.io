@@ -1,0 +1,55 @@
+/* Container DIV - automatically generated */
+.simply-scroll-container {
+    position: relative;
+}
+
+/* Clip DIV - automatically generated */
+.simply-scroll-clip {
+    position: relative;
+    overflow: hidden;
+}
+
+/* UL/OL/DIV - the element that simplyScroll is inited on
+Class name automatically added to element */
+.simply-scroll-list {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.simply-scroll-list li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.simply-scroll-list li img {
+    border: none;
+    display: block;
+}
+
+/* Custom class modifications - adds to / overrides above
+
+.simply-scroll is default base class */
+
+/* Container DIV */
+.simply-scroll {
+    width: 576px;
+    height: 200px;
+    margin-bottom: 1em;
+}
+
+/* Clip DIV */
+.simply-scroll .simply-scroll-clip {
+    width: 100%;
+    height: 200px;
+}
+
+/* Explicitly set height/width of each list item */
+.simply-scroll .simply-scroll-list li {
+    float: left; /* Horizontal scroll only */
+    width: 100px;
+    height: 100px;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRoZW1lcy90eXBvZ3JhcGh5L3NvdXJjZS9jc3MvanF1ZXJ5LnNpbXBseXNjcm9sbC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsNkNBQUE7QUFDQTtJQUNJLG1CQUFBO0NBQ0o7O0FBRUEsd0NBQUE7QUFDQTtJQUNJLG1CQUFBO0lBQ0EsaUJBQUE7Q0FDSjs7QUFFQTs0Q0FDMkM7QUFDM0M7SUFDSSxpQkFBQTtJQUNBLFVBQUE7SUFDQSxXQUFBO0lBQ0EsaUJBQUE7Q0FDSjs7QUFFQTtJQUNJLFdBQUE7SUFDQSxVQUFBO0lBQ0EsaUJBQUE7Q0FDSjs7QUFFQTtJQUNJLGFBQUE7SUFDQSxlQUFBO0NBQ0o7O0FBRUE7O3VDQUVzQzs7QUFFdEMsbUJBQUE7QUFDQTtJQUNJLGFBQUE7SUFDQSxjQUFBO0lBQ0EsbUJBQUE7Q0FDSjs7QUFFQSxjQUFBO0FBQ0E7SUFDSSxZQUFBO0lBQ0EsY0FBQTtDQUNKOztBQUVBLG1EQUFBO0FBQ0E7SUFDSSxZQUFBLENBQWEsNEJBQUE7SUFDYixhQUFBO0lBQ0EsY0FBQTtDQUNKIiwiZmlsZSI6InRoZW1lcy90eXBvZ3JhcGh5L3NvdXJjZS9jc3MvanF1ZXJ5LnNpbXBseXNjcm9sbC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBDb250YWluZXIgRElWIC0gYXV0b21hdGljYWxseSBnZW5lcmF0ZWQgKi9cbi5zaW1wbHktc2Nyb2xsLWNvbnRhaW5lciB7XG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xufVxuXG4vKiBDbGlwIERJViAtIGF1dG9tYXRpY2FsbHkgZ2VuZXJhdGVkICovXG4uc2ltcGx5LXNjcm9sbC1jbGlwIHtcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcbn1cblxuLyogVUwvT0wvRElWIC0gdGhlIGVsZW1lbnQgdGhhdCBzaW1wbHlTY3JvbGwgaXMgaW5pdGVkIG9uXG5DbGFzcyBuYW1lIGF1dG9tYXRpY2FsbHkgYWRkZWQgdG8gZWxlbWVudCAqL1xuLnNpbXBseS1zY3JvbGwtbGlzdCB7XG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgICBtYXJnaW46IDA7XG4gICAgcGFkZGluZzogMDtcbiAgICBsaXN0LXN0eWxlOiBub25lO1xufVxuXG4uc2ltcGx5LXNjcm9sbC1saXN0IGxpIHtcbiAgICBwYWRkaW5nOiAwO1xuICAgIG1hcmdpbjogMDtcbiAgICBsaXN0LXN0eWxlOiBub25lO1xufVxuXG4uc2ltcGx5LXNjcm9sbC1saXN0IGxpIGltZyB7XG4gICAgYm9yZGVyOiBub25lO1xuICAgIGRpc3BsYXk6IGJsb2NrO1xufVxuXG4vKiBDdXN0b20gY2xhc3MgbW9kaWZpY2F0aW9ucyAtIGFkZHMgdG8gLyBvdmVycmlkZXMgYWJvdmVcblxuLnNpbXBseS1zY3JvbGwgaXMgZGVmYXVsdCBiYXNlIGNsYXNzICovXG5cbi8qIENvbnRhaW5lciBESVYgKi9cbi5zaW1wbHktc2Nyb2xsIHtcbiAgICB3aWR0aDogNTc2cHg7XG4gICAgaGVpZ2h0OiAyMDBweDtcbiAgICBtYXJnaW4tYm90dG9tOiAxZW07XG59XG5cbi8qIENsaXAgRElWICovXG4uc2ltcGx5LXNjcm9sbCAuc2ltcGx5LXNjcm9sbC1jbGlwIHtcbiAgICB3aWR0aDogMTAwJTtcbiAgICBoZWlnaHQ6IDIwMHB4O1xufVxuXG4vKiBFeHBsaWNpdGx5IHNldCBoZWlnaHQvd2lkdGggb2YgZWFjaCBsaXN0IGl0ZW0gKi9cbi5zaW1wbHktc2Nyb2xsIC5zaW1wbHktc2Nyb2xsLWxpc3QgbGkge1xuICAgIGZsb2F0OiBsZWZ0OyAvKiBIb3Jpem9udGFsIHNjcm9sbCBvbmx5ICovXG4gICAgd2lkdGg6IDEwMHB4O1xuICAgIGhlaWdodDogMTAwcHg7XG59Il19 */

@@ -1,22 +1,25 @@
-<!DOCTYPE html><html lang="zh-CN" theme-mode="dark"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>VPN是如何接管你的流量的？ | 原神！启动！</title><link rel="icon" type="image/x-icon" href="/favicon.ico"><script>var config = {"root":"/","search":{"preload":false,"activeHolder":"Enter here","blurHolder":"Search","noResult":"Data \"$0\" not found"},"code":{"codeInfo":"$0 - $1 lines","copy":"code.copy","copyFinish":"code.copyFinish","expand":"code.expand"}}</script><script src="//unpkg.com/mermaid@9.2.2/dist/mermaid.min.js"></script><link type="text/css" rel="stylesheet" href="//unpkg.com/lightgallery@2.7.1/css/lightgallery.css"><link type="text/css" rel="stylesheet" href="//unpkg.com/lightgallery@2.7.1/css/lg-zoom.css"><link type="text/css" rel="stylesheet" href="//unpkg.com/lightgallery@2.7.1/css/lg-thumbnail.css"><link type="text/css" rel="stylesheet" href="/lib/fontawesome/css/all.min.css"><link rel="stylesheet" href="/css/arknights.css"><script>if (window.localStorage.getItem('theme-mode') === 'light')
- document.documentElement.setAttribute('theme-mode', 'light')
-if (window.localStorage.getItem('theme-mode') === 'dark')
- document.documentElement.setAttribute('theme-mode', 'dark')</script><style>@font-face {
- font-family: Bender;
- src: local('Bender'), url("/font/Bender.ttf"), url("/font/Bender.otf");
-}
-@font-face {
- font-family: BenderLight;
- src: local('BenderLight'), url("/font/BenderLight.ttf");
-}
-@font-face {
- font-family: 'JetBrains Mono';
- src: local('JetBrains Mono'), url('/font/JetBrainsMono-Regular.woff2') format('woff2');
-}</style><style>:root {
-  --dark-background: url('https://ak.hypergryph.com/assets/index/images/ak/pc/bk.jpg');
-  --light-background: url('/img/bk.jpg');
-}</style><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="原神！启动！" type="application/atom+xml">
-</head><body><div class="loading" style="opacity: 0;"><div class="loadingBar left"></div><div class="loadingBar right"></div></div><main><header class="closed"><div class="navBtn"><i class="navBtnIcon"><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span></i></div><nav><div class="navItem" id="search-header"><span class="navItemTitle"><input autocomplete="off" autocorrect="off" autocapitalize="none" placeholder="Search" spellcheck="false" maxlength="50" type="text" id="search-input"></span></div><div class="navItem" id="search-holder"></div><div class="search-popup"><div id="search-result"></div></div><ol class="navContent"><li class="navItem"><a class="navBlock" href="/"><span class="navItemTitle">Home</span></a></li><li class="navItem" matchdata="categories,tags"><a class="navBlock" href="/archives/"><span class="navItemTitle">Archives</span></a></li></ol></nav></header><article><div id="post-bg"><div id="post-title"><h1>VPN是如何接管你的流量的？</h1><div id="post-info"><span>First Post: <div class="control"><time datetime="2022-10-20T13:34:59.862Z" id="date"> 2022-10-20</time></div></span><br><span>Last Update: <div class="control"><time datetime="2023-03-02T18:08:14.467Z" id="updated"> 2023-03-03</time></div></span></div></div><hr><div id="post-content"><h1 id="vpn是如何接管你的流量的"><a href="#vpn是如何接管你的流量的" class="headerlink" title="vpn是如何接管你的流量的"></a><a class="markdownIt-Anchor" href="#vpn是如何接管你的流量的">#</a> VPN 是如何接管你的流量的？</h1>
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta name="author"><title>VPN是如何接管你的流量的？ · Passi0nfruit</title><meta name="description" content="# VPN 是如何接管你的流量的？
+Fork from SunBK201
+如今，魔法道具逐渐成为了一些同学的常用 App，甚至必备 App，了解这些道具是如何接管你的网络流量显得很重要。
+目前，常见的接管方式有 3 种：
+
+系统配置代理
+虚拟网卡接管
+网关透明代理
+
+这里我主要谈前两种。
+# 系统配"><meta name="og:description" content="# VPN 是如何接管你的流量的？
+Fork from SunBK201
+如今，魔法道具逐渐成为了一些同学的常用 App，甚至必备 App，了解这些道具是如何接管你的网络流量显得很重要。
+目前，常见的接管方式有 3 种：
+
+系统配置代理
+虚拟网卡接管
+网关透明代理
+
+这里我主要谈前两种。
+# 系统配"><meta name="twitter:site" content="Passi0nfruit"><meta name="twitter:title" content="VPN是如何接管你的流量的？"><meta name="twitter:card" content="summary"><meta name="keywords" content=""><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="renderer" content="webkit"><link rel="short icon" href="images/favicon.png" type="image/x-icon"><link rel="stylesheet" href="/css/bootstrap.min.css"><link rel="stylesheet" href="/css/font-awesome.min.css"><link rel="stylesheet" href="/css/style.css"><link rel="alternate" type="application/atom+xml" title="ATOM 1.0" href="/atom.xml"><meta name="generator" content="Hexo 6.3.0"><link rel="stylesheet" href="/css/prism.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head><body><div class="container" id="stage"><div class="row"><div class="col-sm-3 col-xs-12 side-container invisible" id="side-bar"><div class="vertical-text site-title"><h3 class="site-title-small" tabindex="-1"><a class="a-title" href="/">Typography</a></h3><h1 class="site-title-large" tabindex="-1"><a class="a-title" href="/">活版印字</a></h1><!--h6(onclick="triggerSiteNav()") Trigger--></div><br class="visible-lg visible-md visible-sm"><div class="site-title-links" id="site-nav"><ul><li><a href="/">首頁</a></li><li><a href="/archives">歸檔</a></li><li><a href="/categories/index.html">分類</a></li><li><a href="/tags/index.html">標籤</a></li><li class="soc"><a href="http://windsakura.github.io/atom.xml" target="_blank" rel="noopener noreferrer" aria-label="RSS"><i class="fa fa-rss">&nbsp;</i></a></li></ul><div class="visible-lg visible-md visible-sm site-nav-footer"><br class="site-nav-footer-br"><footer><p>&copy;&nbsp;2024&nbsp;<a target="_blank" href="http://windsakura.github.io" rel="noopener noreferrer">Passi0nfruit</a></p><p>Theme&nbsp;<a target="_blank" href="https://github.com/SumiMakito/hexo-theme-typography" rel="noopener noreferrer">Typography</a>&nbsp;by&nbsp;<a target="_blank" href="https://www.keep.moe" rel="noopener noreferrer">Makito</a></p><p>Proudly published with&nbsp;<a target="_blank" href="https://hexo.io" rel="noopener noreferrer">Hexo</a></p></footer></div></div></div><div class="col-sm-9 col-xs-12 main-container invisible" id="main-container"><div class="autopagerize_page_element"><div class="content"><div class="post-page"><div class="post-container"><p class="post-title"><a>VPN是如何接管你的流量的？</a></p><p class="post-meta"><span class="date meta-item">發佈於&nbsp;2022-10-20</span></p><p class="post-abstract"><h1 id="vpn是如何接管你的流量的"><a class="markdownIt-Anchor" href="#vpn是如何接管你的流量的">#</a> VPN 是如何接管你的流量的？</h1>
 <p>Fork from <a target="_blank" rel="noopener" href="https://blog.sunbk201.site/posts/vpn-route.html">SunBK201</a></p>
 <p>如今，魔法道具逐渐成为了一些同学的常用 App，甚至必备 App，了解这些道具是如何接管你的网络流量显得很重要。</p>
 <p>目前，常见的接管方式有 3 种：</p>
@@ -26,12 +29,12 @@ if (window.localStorage.getItem('theme-mode') === 'dark')
 <li>网关透明代理</li>
 </ul>
 <p>这里我主要谈前两种。</p>
-<h2 id="系统配置代理"><a href="#系统配置代理" class="headerlink" title="系统配置代理"></a><a class="markdownIt-Anchor" href="#系统配置代理">#</a> 系统配置代理</h2>
+<h2 id="系统配置代理"><a class="markdownIt-Anchor" href="#系统配置代理">#</a> 系统配置代理</h2>
 <p>这种方式是最易实现的方式，绝大多数的操作系统都会向用户提供配置系统代理的选项，用户在手动或自动配置系统代理后， 向 Internet 发出的网络连接并不会直接向目标服务器发送，而是通过代理服务器转发给目标服务器。</p>
 <p>但由于系统只支持 HTTP、HTTPS、SOCKS 等代理协议，所以在使用这种方式时，用户配置的代理服务器一般并非远端代理服务器， 而是 127.0.0.1，通过将网络流量发送到位于本地的代理客户端，通过代理客户端对网络代理协议进行转换，最终将流量发送到远端代理服务器的代理服务端。</p>
 <p>对于部分 GUI 程序，用户可以直接通过操作系统提供的选项进行配置系统代理，诸如 Web 浏览器的网路连接都可以通过这种方式接管。</p>
 <p>对于 wget、curl、git 等 CLI 工具，我们可以通过设置环境变量 http_proxy，https_proxy 实现接管。</p>
-<h2 id="虚拟网卡接管"><a href="#虚拟网卡接管" class="headerlink" title="虚拟网卡接管"></a><a class="markdownIt-Anchor" href="#虚拟网卡接管">#</a> 虚拟网卡接管</h2>
+<h2 id="虚拟网卡接管"><a class="markdownIt-Anchor" href="#虚拟网卡接管">#</a> 虚拟网卡接管</h2>
 <p>第一种系统配置代理的方式看似美好，但实际上又很大的限制。 系统配置代理并不能接管系统中的大多数流量，因为这种方式需要程序亲自去支持系统代理，也就是说如果软件的开发者并不打算 支持系统代理，那么系统配置代理的方式并不能接管到这些软件发出的流量。 这也就是为什么有些同学即使开了代理，也依旧无法连接外服游戏服务器进行流畅低延迟网游。</p>
 <p>既然系统配置代理有如此大的限制，那么我们需要怎么样的方式对我们系统中的绝大多数流量进行接管，简单来说，我们需要对进程进行强制接管，让程序无感知，而虚拟网卡接管就可以实现。</p>
 <p>简单来说，这是一种网络层级的接管，这种方式是通过在操作系统中建立虚拟网卡，并修改系统中的全局路由表实现的。 这里有 2 个关键点，一个是虚拟网卡，一个是全局路由表。</p>
@@ -56,24 +59,8 @@ if (window.localStorage.getItem('theme-mode') === 'dark')
 <li><code>128.0/1 : 128.0.0.0 - 255.255.255.255</code></li>
 </ul>
 <p>可以看到，这些 ip 段覆盖的全部的 IPv4 的地址，因此所有的出口流量都会流向我们的虚拟网卡 utun5，而不是第一条默认路由。</p>
-<h2 id="网关透明代理"><a href="#网关透明代理" class="headerlink" title="网关透明代理"></a><a class="markdownIt-Anchor" href="#网关透明代理">#</a> 网关透明代理</h2>
+<h2 id="网关透明代理"><a class="markdownIt-Anchor" href="#网关透明代理">#</a> 网关透明代理</h2>
 <p>这种代理方式将代理客户端从我们的个人终端转移到路由网关，个人终端无需进行任何配置，因此称作透明代理。 在这种方式下，我们的网关作为代理客户端负责加密流量拆包和封包。可以理解为第二种方式中虚拟网卡就是这里的路由网关。 只不过这里路由网关是物理的，并非虚拟的。 当然网关可以是虚拟的，这也就是一些客户端实现网管代理模式的思路。</p>
 <p>在网关透明代理方式下，局域网下所有终端设备的网络流量都可以被网关接管，因此，这种网关透明代理方式可以说是最一劳永逸的方式。</p>
 <p>总的来说，由于传统的系统配置代理方式的局限，虚拟网卡接管方式已经成为主流代理客户端的标配，而通过虚拟网卡与网关代理的结合， 又诞生出虚拟网卡接管局域网实现网关级代理的新方式，这些多样的方式让我们配置网络代理变得更加简单，更加灵活。</p>
-<div id="paginator"></div></div><div id="post-footer"><div id="pages" style="justify-content: flex-end"><div class="footer-link" style="width: 50%;right:1px;border-left:1px #fe2 solid"><a href="/2022/10/20/%E5%85%B3%E4%BA%8E%E6%9F%90%E5%A4%A7%E5%AD%A6%E6%A0%A1%E5%9B%AD%E7%BD%91%E5%85%B1%E4%BA%AB%E4%B8%8A%E7%BD%91%E6%A3%80%E6%B5%8B%E6%9C%BA%E5%88%B6%E7%9A%84%E7%A0%94%E7%A9%B6%E4%B8%8E%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/">关于某大学校园网共享上网检测机制的研究与解决方案 Prev →</a></div></div></div></div><div class="bottom-btn"><div><a class="i-top" id="to-top" onClick="scrolls.scrolltop();" title="To Top" style="opacity: 0; display: none;">∧ </a><a class="i-index" id="to-index" href="#toc-div" title="To Catalog">≡</a><a class="i-color" id="color-mode" onClick="colorMode.change()" title="Change Theme"></a></div></div></article><aside><div id="about"><a href="/" id="logo"><img src="https://ak.hypergryph.com/assets/index/images/ak/pc/faction/1.png" alt="Logo"></a><h1 id="Dr"><a href="/">GenShin impact</a></h1><div id="description"><p></p></div></div><div id="aside-block"><div id="toc-div"><h1>Catalog</h1><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#vpn%E6%98%AF%E5%A6%82%E4%BD%95%E6%8E%A5%E7%AE%A1%E4%BD%A0%E7%9A%84%E6%B5%81%E9%87%8F%E7%9A%84"><span class="toc-number">1.</span> <span class="toc-text"> VPN 是如何接管你的流量的？</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%B3%BB%E7%BB%9F%E9%85%8D%E7%BD%AE%E4%BB%A3%E7%90%86"><span class="toc-number">1.1.</span> <span class="toc-text"> 系统配置代理</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%99%9A%E6%8B%9F%E7%BD%91%E5%8D%A1%E6%8E%A5%E7%AE%A1"><span class="toc-number">1.2.</span> <span class="toc-text"> 虚拟网卡接管</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BD%91%E5%85%B3%E9%80%8F%E6%98%8E%E4%BB%A3%E7%90%86"><span class="toc-number">1.3.</span> <span class="toc-text"> 网关透明代理</span></a></li></ol></li></ol></div></div><footer><nobr>Published with <a target="_blank" rel="noopener" href="http://hexo.io">Hexo</a></nobr><wbr><nobr> Theme <a target="_blank" rel="noopener" href="https://github.com/Yue-plus/hexo-theme-arknights">Arknights</a></nobr><wbr><nobr> by <a target="_blank" rel="noopener" href="https://github.com/Yue-plus">Yue_plus</a></nobr></footer></aside></main><canvas id="canvas-dust"></canvas><script src="/js/search.js"></script><script src="/js/arknights.js"></script><script src="//unpkg.com/lightgallery@2.7.1/lightgallery.min.js"></script><script src="//unpkg.com/lightgallery@2.7.1/plugins/zoom/lg-zoom.min.js"></script><script src="//unpkg.com/lightgallery@2.7.1/plugins/thumbnail/lg-thumbnail.min.js"></script><script src="/js/pjax.js"></script><script class="pjax-js">reset= () => {document.querySelector('.lg-container')?.remove()
-lightGallery(document.getElementById('post-bg'), {
-  plugins: [lgZoom,lgThumbnail],
-  selector: '.item-img'})}</script><script>window.addEventListener("load",() => {pjax = new Pjax({
- cacheBust: false,
- selectors: ['title','article','#aside-block','.pjax-js'],
- switches: {'article': Pjax.switches.sideBySide},
- switchesOptions: {
-   'article': {
-     classNames: {
-       remove: "pjax-out",
-       add: "pjax-in"
-     }
-   }
- }
-});
-document.addEventListener("pjax:complete", reset);reset()})</script></body></html>
+</p></div><div class="share"><span>分享到</span>&nbsp;<span class="soc"><a class="fa fa-bookmark" href="javascript:(function(){EN_CLIP_HOST='http://www.evernote.com';try{var%20x=document.createElement('SCRIPT');x.type='text/javascript';x.src=EN_CLIP_HOST+'/public/bookmarkClipper.js?'+(new%20Date().getTime()/100000);document.getElementsByTagName('head')[0].appendChild(x);}catch(e){location.href=EN_CLIP_HOST+'/clip.action?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title);}})();" ref="nofollow" target="_blank"></a></span><span class="soc"><a class="fa fa-weibo" href="javascript:void((function(s,d,e){try{}catch(e){}var f='http://service.weibo.com/share/share.php?',u=d.location.href,p=['url=',e(u),'&amp;title=',e(d.title),'&amp;appkey=2924220432'].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)/2,',top=',(s.height-450)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));"></a></span><span class="soc"><a class="fa fa-twitter" target="_blank" rel="noopener" href="http://twitter.com/home?status=http://windsakura.github.io/2022/10/20/VPN是如何接管你的流量的？/%20Passi0nfruit%20VPN是如何接管你的流量的？"></a></span></div><div class="pagination"><p class="clearfix"><span>&nbsp;</span><span class="next pagbuttons"><a role="navigation" href="/2022/10/20/%E5%85%B3%E4%BA%8E%E6%9F%90%E5%A4%A7%E5%AD%A6%E6%A0%A1%E5%9B%AD%E7%BD%91%E5%85%B1%E4%BA%AB%E4%B8%8A%E7%BD%91%E6%A3%80%E6%B5%8B%E6%9C%BA%E5%88%B6%E7%9A%84%E7%A0%94%E7%A9%B6%E4%B8%8E%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/" title="关于某大学校园网共享上网检测机制的研究与解决方案">下一篇: 关于某大学校园网共享上网检测机制的研究与解决方案&nbsp;<i class="fa fa-angle-double-right"></i></a></span></p></div></div></div></div><div class="visible-xs site-bottom-footer"><footer><p>&copy;&nbsp;2024&nbsp;<a target="_blank" href="http://windsakura.github.io" rel="noopener noreferrer">Passi0nfruit</a></p><p>Theme&nbsp;<a target="_blank" href="https://github.com/SumiMakito/hexo-theme-typography" rel="noopener noreferrer">Typography</a>&nbsp;by&nbsp;<a target="_blank" href="https://www.keep.moe" rel="noopener noreferrer">Makito</a></p><p>Proudly published with&nbsp;<a target="_blank" href="https://hexo.io" rel="noopener noreferrer">Hexo</a></p></footer></div></div></div></div><script src="/js/jquery-3.1.0.min.js"></script><script src="/js/bootstrap.min.js"></script><script src="/js/jquery-migrate-1.2.1.min.js"></script><script src="/js/jquery.appear.js"></script><script src="/js/google-analytics.js"></script><script src="/js/typography.js"></script></body></html>
