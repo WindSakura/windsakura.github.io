@@ -15,27 +15,30 @@
             <description><![CDATA[ &lt;p&gt;&lt;strong&gt;先说结果，我用 win10 成功打开试玩 DLsite 日文游戏，没有乱码，不用改系统时区，也没用上 Locale Emulator（可能是试玩的原因？希腊奶～）&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;以下是方法&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;需要你安装的软件：&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;1-locale-emulator我没用上阿b有up做了详细的安装使用教程这里就不多赘述&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-locale-emulator我没用上阿b有up做了详细的安装使用教程这里就不多赘述&#34;&gt;#&lt;/a&gt; 1. Locale Emulator（我没用上…），阿 B 有 up 做了详细的安装使用教程，这里就不多赘述&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;描述：这个东西是用在解压缩后（游戏目录没乱码），一键指定时区来启动exe游戏程序的，本身不是汉化软件
-
-原作者链接：https://github.com/xupefei/Locale-Emulator/releases
-
-版本选择：2.4.1.0 （win10测试通过，win11使用v2.5.0.0以上版本）
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;2-winrar-或者-7zip&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-winrar-或者-7zip&#34;&gt;#&lt;/a&gt; 2. WinRAR 或者 7zip&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;描述：通过解压缩工具指定语言来解压文件
-
-- WinRAR
-
-选中要解压的文件，ctrl + E, 选择日本，然后正常解压缩，轻松搞定
-
-但是收费，初次下载有40天试用，这里不提供破解方式，不过可以给一个关键词             “rarreg.key”
-
-- 7zip
-
-* 开源免费，但是要一丢丢操作
-
-* 打开 7zip 安装目录，默认是 C:\Program Files\7-Zip&lt;/code&gt;&lt;/pre&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Locale Emulator（我没用上…），阿 B 有 up 做了详细的安装使用教程，这里就不多赘述&lt;/p&gt;
+&lt;p&gt;描述：这个东西是用在解压缩后（游戏目录没乱码），一键指定时区来启动 exe 游戏程序的，本身不是汉化软件&lt;/p&gt;
+&lt;p&gt;原作者链接：&lt;a href=&#34;https://github.com/xupefei/Locale-Emulator/releases&#34;&gt;https://github.com/xupefei/Locale-Emulator/releases&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;版本选择：2.4.1.0 （win10 测试通过，win11 使用 v2.5.0.0 以上版本）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;WinRAR 或者 7zip&lt;/p&gt;
+&lt;p&gt;描述：通过解压缩工具指定语言来解压文件&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;WinRAR&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;选中要解压的文件，ctrl + E, 选择日本，然后正常解压缩，轻松搞定&lt;/p&gt;
+&lt;p&gt;但是收费，初次下载有 40 天试用，这里不提供破解方式，不过可以给一个关键词             “rarreg.key”&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;7zip&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;* 开源免费，但是要一丢丢操作&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;打开 7zip 安装目录，默认是 C:\Program Files\7-Zip&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
  ]]></description>
         </item>
         <item>
