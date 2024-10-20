@@ -5,6 +5,14 @@
     "home_page_url": "http://windsakura.github.io",
     "items": [
         {
+            "id": "http://windsakura.github.io/2024/10/20/%E6%97%A5%E5%8C%BA/",
+            "url": "http://windsakura.github.io/2024/10/20/%E6%97%A5%E5%8C%BA/",
+            "title": "",
+            "date_published": "2024-10-20T10:18:46.588Z",
+            "content_html": "<h1 id=\"日区软件乱码\"><a class=\"markdownIt-Anchor\" href=\"#日区软件乱码\">#</a> 日区软件乱码</h1>\n<p><strong>先说结果，我用 win10 成功打开试玩 DLsite 日文游戏，没有乱码，不用改系统时区，也没用上 Locale Emulator（可能是试玩的原因？希腊奶～）</strong></p>\n<p><strong>以下是方法</strong></p>\n<p><strong>需要你安装的软件：</strong></p>\n<h2 id=\"1-locale-emulator我没用上阿b有up做了详细的安装使用教程这里就不多赘述\"><a class=\"markdownIt-Anchor\" href=\"#1-locale-emulator我没用上阿b有up做了详细的安装使用教程这里就不多赘述\">#</a> 1. Locale Emulator（我没用上…），阿 B 有 up 做了详细的安装使用教程，这里就不多赘述</h2>\n<pre><code>描述：这个东西是用在解压缩后（游戏目录没乱码），一键指定时区来启动exe游戏程序的，本身不是汉化软件\n\n原作者链接：https://github.com/xupefei/Locale-Emulator/releases\n\n版本选择：2.4.1.0 （win10测试通过，win11使用v2.5.0.0以上版本）\n</code></pre>\n<h2 id=\"2-winrar-或者-7zip\"><a class=\"markdownIt-Anchor\" href=\"#2-winrar-或者-7zip\">#</a> 2. WinRAR 或者 7zip</h2>\n<pre><code>描述：通过解压缩工具指定语言来解压文件\n\n- WinRAR\n\n选中要解压的文件，ctrl + E, 选择日本，然后正常解压缩，轻松搞定\n\n但是收费，初次下载有40天试用，这里不提供破解方式，不过可以给一个关键词             “rarreg.key”\n\n- 7zip\n\n* 开源免费，但是要一丢丢操作\n\n* 打开 7zip 安装目录，默认是 C:\\Program Files\\7-Zip</code></pre>\n",
+            "tags": []
+        },
+        {
             "id": "http://windsakura.github.io/2022/10/20/VPN%E6%98%AF%E5%A6%82%E4%BD%95%E6%8E%A5%E7%AE%A1%E4%BD%A0%E7%9A%84%E6%B5%81%E9%87%8F%E7%9A%84%EF%BC%9F/",
             "url": "http://windsakura.github.io/2022/10/20/VPN%E6%98%AF%E5%A6%82%E4%BD%95%E6%8E%A5%E7%AE%A1%E4%BD%A0%E7%9A%84%E6%B5%81%E9%87%8F%E7%9A%84%EF%BC%9F/",
             "title": "VPN是如何接管你的流量的？",
