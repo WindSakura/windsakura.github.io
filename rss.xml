@@ -9,11 +9,10 @@
         <lastBuildDate>Sun, 20 Oct 2024 18:18:46 +0800</lastBuildDate>
         <item>
             <guid isPermalink="true">http://windsakura.github.io/2024/10/20/%E6%97%A5%E5%8C%BA/</guid>
-            <title></title>
+            <title>日区软件乱码解决</title>
             <link>http://windsakura.github.io/2024/10/20/%E6%97%A5%E5%8C%BA/</link>
             <pubDate>Sun, 20 Oct 2024 18:18:46 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;日区软件乱码&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#日区软件乱码&#34;&gt;#&lt;/a&gt; 日区软件乱码&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;先说结果，我用 win10 成功打开试玩 DLsite 日文游戏，没有乱码，不用改系统时区，也没用上 Locale Emulator（可能是试玩的原因？希腊奶～）&lt;/strong&gt;&lt;/p&gt;
+            <description><![CDATA[ &lt;p&gt;&lt;strong&gt;先说结果，我用 win10 成功打开试玩 DLsite 日文游戏，没有乱码，不用改系统时区，也没用上 Locale Emulator（可能是试玩的原因？希腊奶～）&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;以下是方法&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;需要你安装的软件：&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;1-locale-emulator我没用上阿b有up做了详细的安装使用教程这里就不多赘述&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-locale-emulator我没用上阿b有up做了详细的安装使用教程这里就不多赘述&#34;&gt;#&lt;/a&gt; 1. Locale Emulator（我没用上…），阿 B 有 up 做了详细的安装使用教程，这里就不多赘述&lt;/h2&gt;
